@@ -1,0 +1,8 @@
+
+MODES OF FILE:
+ 
+a = Open for appending. 
+It appends new data at the end of file.
+if file does not exist it creates a new file.
+ 
+a+ = Open for appending and then writing   we can use seek function to move cursor from its position while using a+ modehello

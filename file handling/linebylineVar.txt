@@ -1,0 +1,4 @@
+
+stroing text into i using for loop
+
+then assigning to a variable....

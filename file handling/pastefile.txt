@@ -1,0 +1,14 @@
+Opening and Closing file
+* “open()” is use to open the file.
+* It returns file object.
+* syntax
+* open(fileName,mode).
+* fileName: Name of the file that we wants to open.
+* mode: ‘r’ (only for reading), ‘w’ (only for writing), ‘a’ (for append) , r+ (for
+Read and write).
+* Normally, files are opened in text mode, that means, you read and write
+strings from and to the file, which are encoded in a specific encoding.
+* If encoding is not specified, the default is platform dependent .
+* ’b’ appended to the mode opens the file in binary mode.
+* Close the file
+* call f.close() to close it and free up any system resources taken up by the

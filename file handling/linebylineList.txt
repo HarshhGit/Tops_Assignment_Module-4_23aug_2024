@@ -1,0 +1,3 @@
+given empty list as lst
+using for loop i will iterates line by lines
+and i will be appended into empty list lst

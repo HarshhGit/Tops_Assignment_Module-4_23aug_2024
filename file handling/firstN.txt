@@ -1,0 +1,4 @@
+File Handling Mode: FirstN.txt "readline()"
+readline() : This function is used to read a single line from a file.
+syntax:- file_object.readline(size)
+size = number of charcters to read from line.

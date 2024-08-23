@@ -1,0 +1,8 @@
+
+File Handling Mode:
+
+r = Open file for reading only. if the file does not exist it will show error 
+'FileNotFoundError'
+
+r+ = Open file for reading and then writing
+
