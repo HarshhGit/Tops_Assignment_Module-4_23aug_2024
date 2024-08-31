@@ -1,5 +1,6 @@
 Q.1]What is file function in python?What is keyword to create and write file.
 ANS:-
+In pyhon file function refers to the built-in function and methods that are used to work with files and this function are allowed to modify file containes.
 --->CREATE:-To create a file in python we can use "open()"
 Ex:- file = open("Theory.txt","w")
      file.write("Python module 4:OPPS concepts")
@@ -33,7 +34,7 @@ Q.14]How many except statements can try-except block have? Name some built-in ex
 ANS:-
 Try-except block can have as many except statements as programm need or according to Error that can occur during runtime.
 Name of built-in exception:-
-1)TypeError 2)ZeroDivisionError 3)RuntimeError 4)ValueError 5)Exception 6)FileNotFoundError
+1)TypeError 2)ZeroDivisionError 3)RuntimeError 4)ValueError 5)Exception 6)FileNotFoundError Etc...
 --------------------------------------------------------------------------------------------------------------------
 Q.15]When will the else part of try-except-else be executed?
 ANS:-
@@ -66,7 +67,7 @@ Q.21]What are oops concepts? Is multiple inheritance supported in java?
 ANS:-
 OOP Stand for Object-Oriented Programming.
 OOP concepts are mainly 4: 
-1]Ecapsulation:- It means restricting access to some of the object's components, which is 
+1]Encapsulation:- It means restricting access to some of the object's components, which is 
                  known as data hiding.
 
 2]Abstraction:- Abstraction is the concept of hiding the complex implementation details of 
@@ -101,7 +102,21 @@ print(isinstance(o, A)) #True
 --------------------------------------------------------------------------------------------------------------------
 Q.29]What relationship is appropriate for Course and Faculty?
 ANS:-
+And:
+Thhere are 3 kinds of relationship for Course and Faculty as bellow:
+1]One-to-Many 2]Many-to-Many 3]One-to-One
+1]One-to-Many:
+This relationship describe that one Faculty can teach Multiple Course.
+
+2]Many-to-Many:
+This relationship describe that one Course can be teach by multiple Faculty or Every Faculty can teach multiple Course.
+
+3]One-to-One:
+A perticular Course can be teach by a perticular Faculty or The Faculty can teach single perticular Course.
 --------------------------------------------------------------------------------------------------------------------
 Q.30]What relationship is appropriate for Student and Person?
 ANS:-
+Relationship between Student and Person is inheritance because Student can inherit Person property.
+All Student are Person But All Person can't be Student.
+
 --------------------------------------------------------------------------------------------------------------------
